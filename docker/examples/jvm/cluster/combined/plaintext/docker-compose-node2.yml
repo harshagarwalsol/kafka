@@ -18,7 +18,7 @@ version: '2'
 services:
   kafka-2:
     restart: always
-    image: apache/kafka:latest
+    image: apache/kafka:3.7.0
     hostname: kafka-2
     container_name: kafka-2
     ports:
