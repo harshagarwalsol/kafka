@@ -11,6 +11,7 @@ This distribution has a binary test dependency on jqwik, which is available unde
 the Eclipse Public License 2.0. The source code can be found at
 https://github.com/jlink/jqwik.
 
+
 The streams-scala (streams/streams-scala) module was donated by Lightbend and the original code was copyrighted by them:
 Copyright (C) 2018 Lightbend Inc. <https://www.lightbend.com>
 Copyright (C) 2017-2018 Alexis Seigneurin.
@@ -21,3 +22,12 @@ Some portions of this file Copyright (c) 2004-2006 Intel Corporation and license
 
 This project contains the following code copied from Apache Hive:
 streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java
+
+
+In this fork we have made following additional changes:
+1> script: run_docker.sh
+2> file: .env
+3> file: docker/examples/jvm/cluster/combined/plaintext/docker-compose-node1.yml
+4> file: docker/examples/jvm/cluster/combined/plaintext/docker-compose-node2.yml
+5> file: docker/examples/jvm/cluster/combined/plaintext/docker-compose-node3.yml
+
